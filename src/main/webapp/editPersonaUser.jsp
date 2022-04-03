@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <th>User Gender:</th>
+                <th>Persona User Gender:</th>
                 <td>
                     <input type="text" name="gender" size="45"
                            value="<c:out value='${personaUser.gender}' />"
@@ -49,7 +49,7 @@
                 <th>Persona ID:</th>
                 <td>
                     <input type="text" name="personaId" size="15"
-                           value="<c:out value='${personaUser.personaId}' />"
+                           value="<c:out value='${personaUser.personaID}' />"
                     />
                 </td>
             </tr>
