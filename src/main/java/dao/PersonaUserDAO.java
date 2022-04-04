@@ -14,8 +14,9 @@ public class PersonaUserDAO {
     private static final String INSERT_PERSONA_USER = "INSERT INTO persona_user values(?,?,?,?)";
     private static final String SELECT_PERSONA_USER_BY_ID = "SELECT * FROM persona_user WHERE id = ?";
     private static final String SELECT_ALL_PERSONA_USER = "SELECT * FROM persona_user";
+//    private static final String SELECT_ALL_PERSONA_USER = "SELECT u.name, u.gender, p.name FROM persona_user u join persona p on u.personaID = p.id";
     private static final String DELETE_PERSONA_USER = "DELETE FROM persona_user WHERE id = ?;";
-    private static final String UPDATE_PERSONA_USER = "UPDATE persona_user set name = ?, gender = ?, persona_ID = ? WHERE id = ?;";
+    private static final String UPDATE_PERSONA_USER = "UPDATE persona_user set name = ?, gender = ?, personaID = ? WHERE id = ?;";
 
     public PersonaUserDAO() {
     }
